@@ -1,0 +1,39 @@
+{
+  "name": "Logs.by",
+  "namespace": "logs-by",
+  "description": "Simple Logging-as-a-Service",
+  "icon": "assets/icon.svg",
+  "implements": [
+    "manager_events"
+  ],
+  "permissions": {
+    "access_client_kv": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "access_extended_client_kv": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "execute_unsafe_scripts": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "client_network_requests": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "serve_static_files": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "provide_server_functionality": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    },
+    "provide_pageviews": {
+      "description": "This permission is used to facilitate better a user experience.",
+      "required": true
+    }
+  }
+}
